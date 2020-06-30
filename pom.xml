@@ -9,6 +9,10 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>Init</module>
+    <module>Bill</module>
+    <module>Ticket</module>
+    <module>Passenger</module>
+    <module>User</module>
   </modules>
   <packaging>pom</packaging>
 
