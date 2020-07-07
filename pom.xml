@@ -7,14 +7,7 @@
   <groupId>com.century</groupId>
   <artifactId>AirSystem</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>Init</module>
-    <module>Bill</module>
-    <module>Ticket</module>
-    <module>Passenger</module>
-    <module>User</module>
-  </modules>
-  <packaging>pom</packaging>
+  <packaging>war</packaging>
 
   <name>AirSystem Maven Webapp</name>
 
@@ -124,12 +117,44 @@
     <artifactId>commons-fileupload</artifactId>
     <version>1.3.2</version>
   </dependency>
-    <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-core -->
+
+    <!--本地jar包-->
     <dependency>
-      <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-core</artifactId>
-      <version>3.3.1</version>
+      <groupId>com.web.cn.xml</groupId>
+      <artifactId>DomesticAirline</artifactId>
+      <version>1.0</version>
     </dependency>
+    <dependency>
+      <groupId>com.web.cn.xml</groupId>
+      <artifactId>axis</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.web.cn.xml</groupId>
+      <artifactId>commons-discovery-0.2</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.web.cn.xml</groupId>
+      <artifactId>jaxrpc</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.web.cn.xml</groupId>
+      <artifactId>saaj</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.web.cn.xml</groupId>
+      <artifactId>wsdl4j-1.5.1</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+  </dependency>
+
 </dependencies>
 
 <build>

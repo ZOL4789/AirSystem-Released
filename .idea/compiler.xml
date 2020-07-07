@@ -6,12 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Bill" />
-        <module name="Init" />
-        <module name="User" />
-        <module name="Passenger" />
-        <module name="Ticket" />
+        <module name="AirSystem" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Bill" target="1.5" />
+      <module name="Init" target="1.5" />
+      <module name="Passenger" target="1.5" />
+      <module name="Ticket" target="1.5" />
+      <module name="User" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

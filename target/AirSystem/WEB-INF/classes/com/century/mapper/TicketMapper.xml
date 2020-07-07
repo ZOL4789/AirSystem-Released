@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.century.dao.InitDAO">
+    <select id="queryAllTickets" resultType="ticket">
+        select airCode, company, startDrome, arriveDrome, startTime, arriveTime, mode, airStop, week from ticket;
+    </select>
+    <select id="queryTicketByAirCode" parameterType="String" resultType="ticket">
+        select airCode, company, startDrome, arriveDrome, startTime, arriveTime, mode, airStop, week from ticket where airCode=#{airCode}
+    </select>
+    <insert id="addTicketBatch" parameterType="list">
+        insert into ticket(airCode, company, startDrome, arriveDrome, startTime, arriveTime, mode, airStop, week) values (
+        #{airCode}, #{company}, #{startDrome}, #{arriveDrome}, #{startTime}, #{arriveTime}, #{mode}, #{irStop}, #{week});
+    </insert>
+</mapper>
