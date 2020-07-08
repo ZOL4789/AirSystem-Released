@@ -5,6 +5,7 @@ import com.century.vo.Bill;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class BillService {
@@ -16,5 +17,13 @@ public class BillService {
     }
     public int addBill(Bill bill){
         return billDAO.addBill(bill);
+    }
+
+    public int queryTicketIdByUserId(int userId){
+        return billDAO.queryTicketIdByUserId(userId);
+    }
+
+    public List<Bill> queryBillByUserId(int userId){
+        return billDAO.queryBillByUserId(userId);
     }
 }

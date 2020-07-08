@@ -23,6 +23,8 @@
             //获取登录的用户名
             getUserName();
 
+            //检查是否登录
+            checkIsLogin();
         });
 
 
@@ -66,22 +68,22 @@
         <div class="container">
             <div class="col-lg-2">
                 <div>
-                    <input type="button" id="btnInfo" value="账号信息" class="btn btn-primary btn-block"/>
+                    <input type="button" id="btnInfo" value="账号信息" class="btn btn-primary btn-block" onclick="javascript:location='personalInfo.jsp'"/>
                     <br />
                     <p>可查看本账号的个人信息。</p>
                 </div>
                 <div>
-                    <input type="button" id="btnChangePwd" value="修改密码" class="btn btn-primary btn-block" disabled="true"/>
+                    <input type="button" id="btnChangePwd" value="修改密码" class="btn btn-primary btn-block" onclick="javascript:location='changePwd.jsp'"/>
                     <br />
                     <p>可修改本账号的密码。</p>
                 </div>
                 <div>
-                    <input id="btnBill" value="我的订单" class="btn btn-primary btn-block"/>
+                    <input type="button" id="btnBill" value="我的订单" class="btn btn-primary btn-block" onclick="javascript:location='bill.jsp'"/>
                     <br />
                     <p>可查看本账号以往的购买记录。</p>
                 </div>
                 <div>
-                    <input id="btnLogout" value="退出登录" class="btn btn-danger btn-block" />
+                    <input type="button" id="btnLogout" value="退出登录" class="btn btn-danger btn-block" />
                     <br />
                     <p>注销本账号的登录。</p>
                 </div>

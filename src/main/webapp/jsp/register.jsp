@@ -56,7 +56,7 @@
                 <div class="collapse navbar-collapse" id="example-navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="home.jsp">首页</a></li>
-                        <li><a href="register.jsp">注册</a></li>
+                        <li><a href="login.jsp">登录</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                     <p>邮箱可用于找回密码。</p>
                 </div>
                 <div>
-                    <ipnut type="button" id="Button3" value="关于注册" class="btn btn-primary btn-block" disabled="true"/><br />
+                    <input type="button" id="Button3" value="关于注册" class="btn btn-primary btn-block" disabled="true"/><br />
                     <p>注册账号可以享受AirSystem更多更好的服务。</p>
                     <p>注册账号最终解释权归AirSystem所有。</p>
                 </div>

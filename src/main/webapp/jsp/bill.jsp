@@ -12,8 +12,22 @@
     <title>AirSystem-查看订单</title>
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../scripts/common.js" type="text/javascript"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //获取用户名
+            getUserName();
 
+            //检查是否登录
+            checkIsLogin();
+
+            //获取用户的历史订单
+            getBills();
+
+
+        });
+    </script>
 </head>
 <body>
 <div class="container-fluid">
@@ -38,17 +52,17 @@
     <div class="container">
         <div class="col-lg-2">
             <div>
-                <input type="button" id="btnInfo" value="账号信息" class="btn btn-primary btn-block"/>
+                <input type="button" id="btnInfo" value="账号信息" class="btn btn-primary btn-block" onclick="javascript:location='personalInfo.jsp'"/>
                 <br />
                 <p>可查看本账号的个人信息。</p>
             </div>
             <div>
-                <input type="button" id="btnChangePwd" value="修改密码" class="btn btn-primary btn-block" />
+                <input type="button" id="btnChangePwd" value="修改密码" class="btn btn-primary btn-block" onclick="javascript:location='changePwd.jsp'"/>
                 <br />
                 <p>可修改本账号的密码。</p>
             </div>
             <div>
-                <input type="button" id="btnBill" value="我的订单" class="btn btn-primary btn-block" onclick=""/>
+                <input type="button" id="btnBill" value="我的订单" class="btn btn-primary btn-block" onclick="javascript:location='bill.jsp'"/>
                 <br />
                 <p>可查看本账号以往的购买记录。</p>
             </div>
@@ -63,7 +77,7 @@
                 <div class="panel-title">
                     <div style="text-align: center; font-size: 24px">订单</div>
                 </div>
-                <div class="panel-body" style="text-align: center; margin-top: 100px; margin-bottom: 100px">
+                <div class="panel-body" style="text-align: center; margin-top: 50px; margin-bottom: 50px">
                     <div class="row">
                         <table id="tabBill" class="table table-bordered">
                             <tr class="active">
@@ -76,9 +90,16 @@
                                 <td>机型</td>
                                 <td>经停</td>
                                 <td>飞行周期（星期）</td>
+                                <td>出发日期</td>;
                                 <td>下单日期</td>
                             </tr>
                         </table>
+                    </div>
+                    <div class="row">
+                        <nav aria-label="Page navigation">
+                            <ul class="pager" id="pageBar">
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>

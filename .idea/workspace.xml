@@ -7,114 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe585f7d-5fb0-4863-9844-c20d1787688b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/AirSystem.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/controller/BillController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/controller/InitController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/controller/TicketController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/dao/BillDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/dao/InitDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/dao/TicketDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/mapper/BillMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/mapper/InitMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/mapper/TicketMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/service/BillService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/service/InitService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/service/TicketService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/test/app.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/com/century/vo/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/classes/springMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/jsp/false.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/jsp/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/jsp/success.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/jsp/user.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/commons-discovery-0.2-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/jackson-annotations-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/jackson-core-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/jackson-databind-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/javax.servlet-api-3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/jaxrpc-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/saaj-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/slf4j-api-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/slf4j-log4j12-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-aop-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-beans-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-context-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-core-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-expression-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-jdbc-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-tx-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-web-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/spring-webmvc-4.3.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/lib/wsdl4j-1.5.1-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/content/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/content/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/content/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/content/jquery.datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/bill.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/buy.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/changePwd.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/personalInfo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/query.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/jsp/test.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/jquery-3.0.0-vsdoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/jquery-3.0.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/jquery-3.0.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/jquery-3.0.0.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/jquery-3.0.0.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/jquery-3.0.0.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/jquery-3.0.0.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AirSystem/scripts/jquery.datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/controller/BillController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/controller/InitController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/controller/TicketController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/dao/BillDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/dao/InitDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/mapper/BillMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/mapper/InitMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/mapper/TicketMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/service/BillService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/service/TicketService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/test/app.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/vo/Bill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/vo/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/century/vo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/WEB_002dINF/jsp/user_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/home_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/query_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/test_jsp.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/century/vo/SAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dfde2685-0f2e-496d-b5db-63c186a5b664.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dfde2685-0f2e-496d-b5db-63c186a5b664.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/controller/BillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/controller/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/dao/BillDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/dao/BillDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/dao/TicketDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/mapper/BillMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/mapper/BillMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/mapper/TicketMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/mapper/TicketMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/service/BillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/service/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/test/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/test/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/vo/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/vo/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/vo/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/vo/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/false.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/bill.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/bill.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/buy.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/buy.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/changePwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/changePwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/personalInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/personalInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/query.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/query.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -161,6 +83,20 @@
         <item name="mydb@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mydb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="bill: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mydb: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="ticket: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mydb@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mydb: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -174,87 +110,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+            <state relative-caret-position="-143">
+              <caret line="491" column="11" selection-start-line="491" selection-start-column="11" selection-end-line="491" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
-                <element signature="e#98#105#1" expanded="true" />
-                <element signature="e#98#105#1" expanded="true" />
+                <element signature="e#104#111#1" expanded="true" />
+                <element signature="e#104#111#1" expanded="true" />
+                <element signature="e#102#109#1" expanded="true" />
+                <element signature="e#102#109#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/BillMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/test.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="845">
-              <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/buy.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/personalInfo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/jquery.datetimepicker.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2080">
-              <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+            <state relative-caret-position="268">
+              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://dfde2685-0f2e-496d-b5db-63c186a5b664/schema/mydb/table/user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/TicketController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="42" column="77" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/TicketMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/BillController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="155" column="100" selection-start-line="155" selection-start-column="100" selection-end-line="155" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/TicketDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/InitDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/BillDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -264,9 +221,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -276,6 +233,8 @@
       <find>java.lang.NoClassDefFoundError: com/web/cn/xml/DomesticAirlineLocator</find>
       <find>2020-7-4</find>
       <find>StartCity</find>
+      <find>1k254vr2cwamljrkeo9ztrl04</find>
+      <find>jd5324</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -284,17 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bill/src/main/webapp/jsp/bill.jsp" />
-        <option value="$PROJECT_DIR$/Bill/src/main/java/com/century/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/Ticket/src/main/java/com/century/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/Ticket/src/main/java/com/century/service/TicketService.java" />
-        <option value="$PROJECT_DIR$/Ticket/src/main/java/com/century/dao/TicketDAO.java" />
-        <option value="$PROJECT_DIR$/Init/src/main/java/com/century/test/app.java" />
-        <option value="$PROJECT_DIR$/Ticket/src/main/java/com/century/vo/Ticket.java" />
-        <option value="$PROJECT_DIR$/Ticket/src/main/java/com/century/mapper/TicketMapper.xml" />
-        <option value="$PROJECT_DIR$/Init/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/User/src/main/java/com/century/vo/User.java" />
-        <option value="$PROJECT_DIR$/User/src/main/java/com/century/controller/UserController.java" />
         <option value="$PROJECT_DIR$/User/src/main/webapp/jsp/ChangePwd.jsp" />
         <option value="$PROJECT_DIR$/User/src/main/webapp/jsp/PersonalInfo.jsp" />
         <option value="$PROJECT_DIR$/Bill/src/main/java/com/century/service/UserService.java" />
@@ -313,28 +261,39 @@
         <option value="$PROJECT_DIR$/Init/src/main/webapp/jsp/home.jsp" />
         <option value="$PROJECT_DIR$/Init/src/main/java/com/century/controller/InitController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/century/dao/BillController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/century/controller/BillController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/century/service/BillService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/ChangePwd.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/century/controller/TicketController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/century/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/century/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/query.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/century/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/personalInfo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/changePwd.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cuccess.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/false.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/common.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/controller/TicketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/vo/Bill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/service/BillService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/dao/BillDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/service/TicketService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/mapper/TicketMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/dao/TicketDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/mapper/BillMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/century/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/personalInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/bill.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/changePwd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/query.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/buy.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/common.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/controller/BillController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/vo/SAD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/vo/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/century/test/app.java" />
       </list>
     </option>
   </component>
@@ -360,8 +319,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="531" />
+    <option name="y" value="3" />
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
@@ -377,6 +336,31 @@
             <path>
               <item name="AirSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="AirSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AirSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AirSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AirSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AirSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AirSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AirSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AirSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AirSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,7 +384,8 @@
     <property name="last_opened_file_path" value="D:/TencenQQfiles/185729226/FileRecv/MobileFile/cmfz/cmfz" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -436,7 +421,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.26">
+  <component name="RunManager" selected="Maven.AirSystem [jetty:run]">
     <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.century.test.app" />
       <module name="Init" />
@@ -587,7 +572,11 @@
       <workItem from="1594013905657" duration="1885000" />
       <workItem from="1594016128838" duration="12263000" />
       <workItem from="1594032436299" duration="596000" />
-      <workItem from="1594079251764" duration="1593000" />
+      <workItem from="1594079251764" duration="12981000" />
+      <workItem from="1594104286192" duration="7158000" />
+      <workItem from="1594128240441" duration="5249000" />
+      <workItem from="1594172003198" duration="7329000" />
+      <workItem from="1594187859367" duration="7480000" />
     </task>
     <task id="LOCAL-00001" summary="框架模型完成">
       <created>1593514109125</created>
@@ -624,11 +613,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594081152026</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="删除模块分块，整合项目，除bill.jsp和buy.jsp外， 其他已实现">
+      <created>1594081169937</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594081169937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133525000" />
+    <option name="totallyTimeSpent" value="172129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,7 +638,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4945355" visible="true" weight="0.3022388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4945355" visible="true" weight="0.31503198" />
       <window_info id="Structure" order="1" sideWeight="0.5054645" side_tool="true" weight="0.27665246" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -652,10 +648,10 @@
       <window_info id="Web" order="7" sideWeight="0.5054645" side_tool="true" weight="0.27665246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49733475" weight="0.37942123" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49733475" visible="true" weight="0.37942123" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
@@ -666,7 +662,7 @@
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3290461" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3290461" />
-      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4978678" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4978678" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -675,7 +671,7 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.1401919" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.12953092" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,68 +689,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="删除模块分块，整合项目，除bill.jsp和buy.jsp外， 其他已实现" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Init/src/main/webapp/WEB-INF/jsp/user.jsp" />
-    <entry file="file://$PROJECT_DIR$/Init/src/main/webapp/jsp/home.jsp" />
-    <entry file="file://$PROJECT_DIR$/Init/src/main/webapp/jsp/test.jsp" />
-    <entry file="file://$PROJECT_DIR$/Ticket/src/main/java/com/century/controller/TicketController.java" />
-    <entry file="file://$PROJECT_DIR$/Ticket/src/main/webapp/jsp/query.jsp" />
-    <entry file="file://$PROJECT_DIR$/Init/src/main/java/com/century/controller/InitController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/test/app.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bill/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/TicketDAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/User/src/main/java/com/century/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/BillController.java" />
-    <entry file="file://$PROJECT_DIR$/Bill/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/service/BillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/BillDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -771,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -788,91 +715,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/springMVC.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/service/TicketService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/BillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://dfde2685-0f2e-496d-b5db-63c186a5b664/schema/mydb/table/ticket">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/TicketMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/query.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/TicketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -883,40 +732,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/target/AirSystem/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/changePwd.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/service/InitService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/bill.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/buy.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/personalInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/jquery.datetimepicker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
-          <caret line="116" column="52" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+        <state relative-caret-position="100">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -929,41 +755,324 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        <state relative-caret-position="200">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar!/com/fasterxml/jackson/databind/util/JSONPObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.7.0/jackson-databind-2.7.0.jar!/com/fasterxml/jackson/databind/JsonSerializable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4400">
+          <caret line="220" column="33" selection-start-line="220" selection-start-column="33" selection-end-line="220" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/service/BillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/service/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dfde2685-0f2e-496d-b5db-63c186a5b664/schema/mydb/table/ticket">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="24">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dfde2685-0f2e-496d-b5db-63c186a5b664/schema/mydb/table/bill">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/personalInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="75" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/query.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="49" column="136" selection-start-line="49" selection-start-column="136" selection-end-line="49" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/bill.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/changePwd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/buy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="53" column="136" selection-start-line="53" selection-start-column="136" selection-end-line="53" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://dfde2685-0f2e-496d-b5db-63c186a5b664/schema/mydb/table/city">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/jquery.datetimepicker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/SAD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/vo/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/test/app.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/BillMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/InitMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/TicketMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/TicketDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/InitDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/dao/BillDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="42" column="77" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/BillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="155" column="100" selection-start-line="155" selection-start-column="100" selection-end-line="155" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+        <state relative-caret-position="-143">
+          <caret line="491" column="11" selection-start-line="491" selection-start-column="11" selection-end-line="491" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#!!top" expanded="true" />
-            <element signature="e#98#105#1" expanded="true" />
-            <element signature="e#98#105#1" expanded="true" />
+            <element signature="e#104#111#1" expanded="true" />
+            <element signature="e#104#111#1" expanded="true" />
+            <element signature="e#102#109#1" expanded="true" />
+            <element signature="e#102#109#1" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/century/mapper/BillMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -976,7 +1085,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1020,11 +1128,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|AirSystem</last-edited>
+          <last-edited>AirSystem</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -60,15 +60,11 @@ public class UserController {
 
     @ResponseBody
     @RequestMapping("/logout")
-    public void logout(HttpServletRequest request){
-        Cookie[] cookies = request.getCookies();
-        if(cookies != null) {
-            for(Cookie cookie : cookies){
-                if(cookie.getName().equals("userName")){
-                    cookie.setMaxAge(0);            //删除cookie
-                }
-            }
-        }
+    public void logout(HttpServletResponse response){
+        Cookie cookie = new Cookie("userName", null);
+        cookie.setPath("/");
+        cookie.setMaxAge(0);
+        response.addCookie(cookie);
     }
 
     @ResponseBody
@@ -93,6 +89,8 @@ public class UserController {
             Cookie cookie = new Cookie("userName",user_Name);
             cookie.setHttpOnly(true);
             cookie.setMaxAge(60*60*24*7);
+            cookie.setPath("/");    //设置全局访问
+            cookie.setSecure(false);
             response.addCookie(cookie);
             session.removeAttribute("result");
             RedirectView redirectView=new RedirectView("../jsp/home.jsp",true,true);

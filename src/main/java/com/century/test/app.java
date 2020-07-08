@@ -9,10 +9,13 @@ import java.rmi.RemoteException;
 
 public class app {
     public static void main(String[] args){
+
+        //服务测试，以下是获取航班信息（接口是getDomesticAirlineTime）
+        //获取城市数据，接口是getDomesticCity
         DomesticAirlineLocator domesticAirlineLocator = new DomesticAirlineLocator();
         try {
             DomesticAirlineSoap_PortType domesticAirline = domesticAirlineLocator.getDomesticAirlineSoap12();
-            DataSet dataSet = new DataSet(domesticAirline.getDomesticAirlinesTime("北京","上海","2020-7-20","").get_any());
+            DataSet dataSet = new DataSet(domesticAirline.getDomesticAirlinesTime("北京","上海","2020-7-20","").get_any());     //接口调用
             System.out.println(dataSet.get_any()[1].getChildNodes().item(0).getChildNodes().getLength());
             for(int i = 0; i < dataSet.get_any()[1].getChildNodes().item(0).getChildNodes().getLength(); i++){
                 for(int j = 0; j < dataSet.get_any()[1].getChildNodes().item(0).getChildNodes().item(i).getChildNodes().getLength(); j++){

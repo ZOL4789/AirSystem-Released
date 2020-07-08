@@ -17,9 +17,13 @@
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../scripts/jquery.datetimepicker.js"></script>
     <script type="text/javascript">
+
         $(document).ready(function(){
             //初始化时间控件
             initTimePicker();
+
+            //获取用户操作数据
+            getSAD();
 
             //获取城市list
             getCities();
@@ -27,30 +31,27 @@
             //获取登录的用户名
             getUserName();
 
-            //默认出发时间为当前日期
-            var date = new Date();
-            $("#dateTime").val(date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate());
 
-            //设置搜索的点击事件
-            $("#btnSearch").on("click", function () {
-                var startCity = $("#selStartCity").val();
-                var arriveCity = $("#selLastCity").val();
-                var theDate = $("#dateTime").val();
-                //发送搜索请求
-                $.ajax({
-                    url:"/AirSystem/init/search",
-                    type:"post",
-                    contentType:"application/json;",
-                    data:JSON.stringify({startCity:startCity, arriveCity:arriveCity, theDate:theDate}),
-                    success:function () {
-                        location = "query.jsp";
-                    },
-                    error:function () {
-                        alert("请求发送失败！");
-                    }
-                })
-            });
         });
+        function search(){
+            var startCity = $("#selStartCity").val();
+            var arriveCity = $("#selLastCity").val();
+            var theDate = $("#dateTime").val();
+            alert(arriveCity);
+            //发送搜索请求
+            $.ajax({
+                url:"/AirSystem/init/search",
+                type:"post",
+                contentType:"application/json;",
+                data:JSON.stringify({startCity:startCity, arriveCity:arriveCity, theDate:theDate}),
+                success:function () {
+                    location = "query.jsp";
+                },
+                error:function () {
+                    alert("请求发送失败！");
+                }
+            })
+        }
     </script>
 </head>
 <body>
@@ -118,7 +119,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <input type="button" id="btnSearch" value="搜索" class="btn btn-primary btn-block"/>
+                        <input type="button" id="btnSearch" value="搜索" class="btn btn-primary btn-block" onclick="search()"/>
                     </div>
                 </div>
             </div>

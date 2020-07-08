@@ -2,17 +2,18 @@ package com.century.vo;
 
 import org.springframework.context.annotation.Scope;
 
-@Scope("prototype")
+@Scope("prototype")         //设置多实例
 public class Ticket {
     private String airCode;
     private String company;
-    private String airStartDrome;
+    private String startDrome;
     private String arriveDrome;
     private String startTime;
     private String arriveTime;
     private String mode;
     private String airStop;
     private String week;
+    private String date;
 
     public String getAirCode() {
         return airCode;
@@ -30,12 +31,12 @@ public class Ticket {
         this.company = company;
     }
 
-    public String getAirStartDrome() {
-        return airStartDrome;
+    public String getstartDrome() {
+        return startDrome;
     }
 
-    public void setAirStartDrome(String airStartDrome) {
-        this.airStartDrome = airStartDrome;
+    public void setStartDrome(String startDrome) {
+        this.startDrome = startDrome;
     }
 
     public String getArriveDrome() {
@@ -86,4 +87,11 @@ public class Ticket {
         this.week = week;
     }
 
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
 }

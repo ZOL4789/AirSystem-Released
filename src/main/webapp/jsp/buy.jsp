@@ -12,7 +12,21 @@
     <title>AirSystem-首页</title>
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../scripts/common.js" type="text/javascript"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //获取用户名
+            getUserName();
+
+            //获取点击的机票信息
+            getTicketToBuy();
+
+            $("#btnSubmit").on("click", function(){
+                buy();
+            })
+        })
+    </script>
 </head>
 <body>
 <div class="container-fluid">
@@ -37,7 +51,7 @@
     <div class="container">
         <div class="col-lg-2">
             <div>
-                <input type="button" ID="btnQuery" value="航班查询" class="btn btn-primary btn-block"/>
+                <input type="button" ID="btnQuery" value="航班查询" class="btn btn-primary btn-block" onclick="javascript:location='home.jsp'"/>
                 <br />
                 <p>选择出发地、目的地和出发时间以进行航班班次查询。</p>
             </div>

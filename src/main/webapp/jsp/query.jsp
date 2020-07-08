@@ -19,9 +19,8 @@
             //获取登录的用户名
             getUserName();
 
+            //获取机票
             getTickets();
-
-            tableRowMove();
         });
     </script>
 </head>
@@ -48,7 +47,7 @@
     <div class="container">
         <div class="col-lg-2">
             <div>
-                <input type="button" id="btnQuery" value="航班查询" class="btn btn-primary btn-block" />
+                <input type="button" id="btnQuery" value="航班查询" class="btn btn-primary btn-block" onclick="javascript:location='home.jsp'"/>
                 <br />
                 <p>选择出发地、目的地和出发时间以进行航班班次查询。</p>
             </div>
