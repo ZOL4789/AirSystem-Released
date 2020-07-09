@@ -7,43 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe585f7d-5fb0-4863-9844-c20d1787688b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/false.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/controller/BillController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/controller/InitController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/controller/TicketController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/dao/BillDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/dao/InitDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/dao/TicketDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/dao/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/mapper/BillMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/mapper/InitMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/mapper/TicketMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/service/BillService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/service/InitService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/service/TicketService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/test/app.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/vo/Bill.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/vo/City.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/vo/SAD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/vo/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/century/vo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/bill_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/buy_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/home_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/query_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/changePwd_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/jsp/personalInfo_jsp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/century/controller/InitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/century/controller/InitController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,7 +87,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
+            <state relative-caret-position="184">
               <caret line="105" column="52" lean-forward="true" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -624,7 +591,7 @@
       <workItem from="1594260584278" duration="1670000" />
       <workItem from="1594262308140" duration="628000" />
       <workItem from="1594262980204" duration="1017000" />
-      <workItem from="1594275835646" duration="5986000" />
+      <workItem from="1594275835646" duration="7388000" />
     </task>
     <task id="LOCAL-00001" summary="框架模型完成">
       <created>1593514109125</created>
@@ -682,11 +649,18 @@
       <option name="project" value="LOCAL" />
       <updated>1594266323613</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="（Web工程实训）项目完成，修复了一些BUG">
+      <created>1594285103287</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594285103287</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184953000" />
+    <option name="totallyTimeSpent" value="186355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,7 +674,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4945355" visible="true" weight="0.24093817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4945355" visible="true" weight="0.24093817" />
       <window_info id="Structure" order="1" sideWeight="0.5054645" side_tool="true" weight="0.27665246" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -713,7 +687,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.49733475" visible="true" weight="0.25187567" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49733475" visible="true" weight="0.25187567" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290461" />
@@ -749,7 +723,8 @@
     <MESSAGE value="完成WebService数据获取和解析（提交的时候记得删除target文件）" />
     <MESSAGE value="删除模块分块，整合项目，除bill.jsp和buy.jsp外， 其他已实现" />
     <MESSAGE value="（Web工程实训）项目完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="（Web工程实训）项目完成" />
+    <MESSAGE value="（Web工程实训）项目完成，修复了一些BUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="（Web工程实训）项目完成，修复了一些BUG" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1113,7 +1088,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/century/controller/InitController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
+        <state relative-caret-position="184">
           <caret line="105" column="52" lean-forward="true" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
