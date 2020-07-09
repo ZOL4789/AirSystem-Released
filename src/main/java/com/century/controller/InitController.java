@@ -26,7 +26,6 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/init")
-@SessionAttributes({"startCity", "arriveCity", "theDate"})
 public class InitController {
     @Resource
     private InitService initService;
@@ -101,46 +100,42 @@ public class InitController {
     //前台传入用户所选择的出发地、目的地和出发日期，保存到Cookie中
     @ResponseBody
     @RequestMapping(value = "/search")
-    public void search(@RequestBody Map<String, Object> map, HttpServletResponse response, HttpServletRequest request){
+    public void search(@RequestBody Map<String, Object> map, HttpServletResponse response){
         String startCity = (String)map.get("startCity");
         String arriveCity = (String)map.get("arriveCity");
         String theDate = (String)map.get("theDate");
-        Cookie[] cookies = request.getCookies();
-        if(cookies != null) {
-            for(Cookie cookie : cookies){
-                if(cookie.getName().equals("startCity")){
-                    try {
-                        String startCityEncode = URLEncoder.encode(startCity,"utf-8");      //中文保存到Cookie中乱码，需要转码保存
-                        Cookie cookieStartCity = new Cookie("startCity", startCityEncode);
-                        cookieStartCity.setMaxAge(60 * 60 * 24 * 7);        //设置Cookie有效时间
-                        cookieStartCity.setPath("/");                       //设置全局访问
-                        //cookie.setHttpOnly(true);
-                        response.addCookie(cookieStartCity);
-                    } catch (UnsupportedEncodingException e) {
-                        e.printStackTrace();
-                    }
-                }
-                if(cookie.getName().equals("arriveCity")){
-                    try{
-                        String arriveCityEncode = URLEncoder.encode(arriveCity, "utf-8");
-                        Cookie cookieArriveCity = new Cookie("arriveCity", arriveCityEncode);
-                        cookieArriveCity.setMaxAge(60 * 60 * 24 * 7);
-                        cookieArriveCity.setPath("/");           //设置全局访问
-                        //cookieArriveCity.setHttpOnly(true);
-                        response.addCookie(cookieArriveCity);
-                    }catch (UnsupportedEncodingException e){
-                        e.printStackTrace();
-                    }
-                }
-                if(cookie.getName().equals("theDate")){
-                    Cookie cookieDate = new Cookie("theDate", theDate);
-                    cookieDate.setMaxAge(60 * 60 * 24 * 7);
-                    cookieDate.setPath("/");           //设置全局访问
-                    //cookieArriveCity.setHttpOnly(true);
-                    response.addCookie(cookieDate);
-                }
+        boolean isStartCityNew = true, isArriveCityNew = true, isTheDateNew = true;
+        if(isStartCityNew){
+            try {
+                String startCityEncode = URLEncoder.encode(startCity,"utf-8");      //中文保存到Cookie中乱码，需要转码保存
+                Cookie cookieStartCity = new Cookie("startCity", startCityEncode);
+                cookieStartCity.setMaxAge(60 * 60 * 24 * 7);        //设置Cookie有效时间
+                cookieStartCity.setPath("/");                       //设置全局访问
+                //cookie.setHttpOnly(true);
+                response.addCookie(cookieStartCity);
+            } catch (UnsupportedEncodingException e) {
+                e.printStackTrace();
+            }
+        }
+        if(isArriveCityNew){
+            try{
+                String arriveCityEncode = URLEncoder.encode(arriveCity, "utf-8");
+                Cookie cookieArriveCity = new Cookie("arriveCity", arriveCityEncode);
+                cookieArriveCity.setMaxAge(60 * 60 * 24 * 7);
+                cookieArriveCity.setPath("/");           //设置全局访问
+                //cookieArriveCity.setHttpOnly(true);
+                response.addCookie(cookieArriveCity);
+            }catch (UnsupportedEncodingException e){
+                e.printStackTrace();
             }
         }
 
+        if(isTheDateNew){
+            Cookie cookieDate = new Cookie("theDate", theDate);
+            cookieDate.setMaxAge(60 * 60 * 24 * 7);
+            cookieDate.setPath("/");           //设置全局访问
+            //cookieArriveCity.setHttpOnly(true);
+            response.addCookie(cookieDate);
+        }
     }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.century.dao.TicketDAO">
+    <select id="queryAllTickets" resultType="ticket">
+        select company, airCode, startDrome, arriveDrome, startTime, arriveTime, mode, airStop, week, date from ticket
+    </select>
+    <select id="queryTicketById" parameterType="int" resultType="ticket">
+        select company, airCode, startDrome, arriveDrome, startTime, arriveTime, mode, airStop, week, date from ticket where id=#{id}
+    </select>
+    <insert id="addTicketBatch" parameterType="list">
+        insert ignore into ticket(company, airCode, startDrome, arriveDrome, startTime, arriveTime, mode, airStop, week, date) values
+        <foreach collection="list" item="item" separator=",">
+            (#{item.company}, #{item.airCode}, #{item.startDrome}, #{item.arriveDrome}, #{item.startTime}, #{item.arriveTime}, #{item.mode}, #{item.airStop}, #{item.week}, #{item.date})
+        </foreach>
+
+    </insert>
+    <insert id="addTicket" parameterType="ticket">
+        insert into ticket(company, airCode, startDrome, arriveDrome, startTime, arriveTime, mode, airStop, week, date) values
+        (#{company}, #{airCode}, #{startDrome}, #{arriveDrome}, #{startTime}, #{arriveTime}, #{mode}, #{airStop}, #{week}, #{date})
+    </insert>
+    <select id="queryAllAirCode" resultType="String">
+        select airCode from ticket
+    </select>
+    <select id="queryTicketBySAD" parameterType="sad" resultType="ticket">
+        select company, airCode, startDrome, arriveDrome, startTime, arriveTime, mode, airStop, week, date from ticket where startDrome like concat('%',#{startCity} ,'%') and arriveDrome like concat('%', #{arriveCity},'%') and date = #{theDate}
+    </select>
+    <select id="queryIdByAirCode" parameterType="String" resultType="int">
+        select id from ticket where airCode=#{airCode}
+    </select>
+    <select id="queryTicketByAirCode" parameterType="String" resultType="ticket">
+        select airCode,company,startDrome,arriveDrome,startTime,arriveTime, mode, airStop, week, date from ticket where airCode=#{airCode}
+    </select>
+    <select id="queryTicketByMapCSA" parameterType="map" resultType="ticket">
+        select airCode,company,startDrome,arriveDrome,startTime,arriveTime, mode, airStop, week, date from ticket where airCode=#{airCode} and startTime =  #{startTime} and arriveTime = #{arriveTime}
+    </select>
+
+</mapper>

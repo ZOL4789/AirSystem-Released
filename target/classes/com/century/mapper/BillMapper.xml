@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.century.dao.BillDAO">
+    <select id="queryUserById" parameterType="int" resultType="user">
+        select name, age from user where id=#{id}
+    </select>
+    <insert id="addBill" parameterType="bill">
+        insert into bill (userId, ticketId,date) values (#{userId}, #{ticketId},#{date})
+    </insert>
+    <select id="queryTicketIdByUserId" parameterType="int" resultType="int">
+        select ticketId from bill where userId=#{userId}
+    </select>
+    <select id="queryBillByUserId" parameterType="int" resultType="bill">
+        select userId, ticketId, date from bill where userId=#{userId}
+    </select>
+
+</mapper>
