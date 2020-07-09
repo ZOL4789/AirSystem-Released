@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class TicketService {
@@ -38,4 +39,6 @@ public class TicketService {
     public int queryIdByAirCode(String airCode){return ticketDAO.queryIdByAirCode(airCode);}
 
     public Ticket queryTicketByAirCode(String airCode){return ticketDAO.queryTicketByAirCode(airCode);}
+
+    public Ticket queryTicketByMapCSA(Map<String,Object> map){return ticketDAO.queryTicketByMapCSA(map);}
 }

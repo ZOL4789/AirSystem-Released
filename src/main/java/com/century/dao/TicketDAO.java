@@ -4,6 +4,7 @@ import com.century.vo.SAD;
 import com.century.vo.Ticket;
 
 import java.util.List;
+import java.util.Map;
 
 public interface TicketDAO {
     Ticket queryAllTickets();
@@ -14,4 +15,5 @@ public interface TicketDAO {
     List<Ticket> queryTicketBySAD(SAD sad);
     int queryIdByAirCode(String airCode);
     Ticket queryTicketByAirCode(String airCode);
+    Ticket queryTicketByMapCSA(Map<String, Object> map);
 }

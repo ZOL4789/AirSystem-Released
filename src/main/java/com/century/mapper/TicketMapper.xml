@@ -32,5 +32,8 @@
     <select id="queryTicketByAirCode" parameterType="String" resultType="ticket">
         select airCode,company,startDrome,arriveDrome,startTime,arriveTime, mode, airStop, week, date from ticket where airCode=#{airCode}
     </select>
+    <select id="queryTicketByMapCSA" parameterType="map" resultType="ticket">
+        select airCode,company,startDrome,arriveDrome,startTime,arriveTime, mode, airStop, week, date from ticket where airCode=#{airCode} and startTime =  #{startTime} and arriveTime = #{arriveTime}
+    </select>
 
 </mapper>

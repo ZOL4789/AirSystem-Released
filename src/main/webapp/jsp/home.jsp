@@ -37,7 +37,6 @@
             var startCity = $("#selStartCity").val();
             var arriveCity = $("#selLastCity").val();
             var theDate = $("#dateTime").val();
-            alert(arriveCity);
             //发送搜索请求
             $.ajax({
                 url:"/AirSystem/init/search",
@@ -82,7 +81,7 @@
                 <p>选择出发地、目的地和出发时间以进行航班班次查询。</p>
             </div>
             <div>
-                <input type="button" id="btnBuy" value="机票购买" class="btn btn-primary btn-block"/>
+                <input type="button" id="btnBuy" value="机票购买" class="btn btn-primary btn-block" onclick="javascript:location='buy.jsp'"/>
                 <br />
                 <p>使用该功能需要登录。</p>
             </div>

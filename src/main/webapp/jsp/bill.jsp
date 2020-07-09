@@ -16,6 +16,10 @@
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
+            $("#btnLogout").on("click", function () {
+                logout();
+            });
+
             //获取用户名
             getUserName();
 

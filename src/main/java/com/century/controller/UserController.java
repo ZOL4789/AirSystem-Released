@@ -87,7 +87,7 @@ public class UserController {
         String loginResult=userService.login(user_Name,user_Password);
         if (loginResult.equals("用户登录成功")){
             Cookie cookie = new Cookie("userName",user_Name);
-            cookie.setHttpOnly(true);
+            //cookie.setHttpOnly(true);
             cookie.setMaxAge(60*60*24*7);
             cookie.setPath("/");    //设置全局访问
             cookie.setSecure(false);

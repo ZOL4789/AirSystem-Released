@@ -89,6 +89,7 @@ public class BillController {
             for (Bill bill : billList) {
                 int ticketId = bill.getTicketId();
                 Ticket ticket = ticketService.queryTicketById(ticketId);
+                ticket.setDate(ticket.getDate().split(" ")[0]);
                 ticketList.add(ticket);
             }
             //添加到Map中，返回便于前台接收
@@ -103,8 +104,13 @@ public class BillController {
     @RequestMapping("/setBillToBuy")
     public void setBillToBuy(HttpServletResponse response,@RequestBody Map<String, Object> mapParam){
         String airCode = (String)mapParam.get("airCode");
-        System.out.println("airCode = " + airCode);
-        Ticket ticket  = ticketService.queryTicketByAirCode(airCode);
+        String startTime = (String)mapParam.get("startTime");
+        String arriveTime = (String)mapParam.get("arriveTime");
+        Map<String, Object> mapCondition = new HashMap<String, Object>();
+        mapCondition.put("airCode", airCode);
+        mapCondition.put("startTime", startTime);
+        mapCondition.put("arriveTime", arriveTime);
+        Ticket ticket  = ticketService.queryTicketByMapCSA(mapCondition);
         if(ticket != null){
             String company = ticket.getCompany();
             String startDrome = ticket.getstartDrome();
@@ -127,7 +133,7 @@ public class BillController {
                         weekEncode+"&"+
                         date.split(" ")[0];
                 Cookie cookie = new Cookie("ticket", ticketStr);
-                cookie.setMaxAge(60*60*24*7);
+                cookie.setMaxAge(60*60*24*7);       //设置七天有效期
                 cookie.setPath("/");
                 //cookie.setHttpOnly(true);
                 response.addCookie(cookie);

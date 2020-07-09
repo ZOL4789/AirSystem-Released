@@ -3,10 +3,11 @@ function getUserName(){
     $.ajax({
         url:"/AirSystem/user/getUserName",
         type:"post",
+        async:false,
         //contentType:"application/json;charset=utf-8",
         dataType:"text",
-        success:function (userName) {
-            userName = userName;
+        success:function (data) {
+            userName = data;
             //检查是否已经登录了账号
             if (userName == null || userName == "") {
                 $("#btnBuy").attr("disabled", true);
@@ -36,6 +37,7 @@ function getUserName(){
     });
 }
 
+//检查用户是否登录
 function checkIsLogin(){
     if(userName == null || userName == ""){
         alert("当前未登录任何用户，是否登录？");
@@ -43,10 +45,11 @@ function checkIsLogin(){
     }
 }
 
-var startCity;
-var arriveCity;
-var theDate;
+var startCity;      //出发地
+var arriveCity;     //目的地
+var theDate;        //出发日期
 
+//获取出发地、目的地和出发日期Cookie设置页面出发地、目的地和出发日期
 function getSAD(){
     $.ajax({
         url:"/AirSystem/init/getSAD",
@@ -79,6 +82,7 @@ function getSAD(){
     });
 }
 
+//获取所有城市，并根据Cookie中的值显示出来
 function getCities(){
     $.ajax({
         url:"/AirSystem/init/getCities",
@@ -111,6 +115,7 @@ function getCities(){
     });
 }
 
+//初始化时间控件
 function initTimePicker(){
     $("#dateTime").datetimepicker({
         format: 'Y-m-d',        //设置时间显示格式
@@ -121,6 +126,7 @@ function initTimePicker(){
     });
 }
 
+//退出登录
 function logout() {
     if (confirm("确定退出登录吗？")) {
         $.ajax({
@@ -138,15 +144,13 @@ function logout() {
     }
 }
 
-var pageIndex;
-var pageCount;
-var pageSize;
-var ticketList;
+var pageIndex;      //当前页面索引
+var pageCount;      //总页面数
+var pageSize;       //页面显示行数
+var ticketList;     //获取到的航班List
 
 //获取机票
 function getTickets() {
-    // var startCity = ${sessionScope.startCity};
-    // alert(startCity);
     $.ajax({
         url:"/AirSystem/ticket/getTickets",
         type:"post",
@@ -156,9 +160,10 @@ function getTickets() {
             ticketList = list;
             pageIndex = 1;
             pageSize = 10;
-            pageCount = Math.ceil(list.length / pageSize);
+            pageCount = Math.ceil(list.length / pageSize);      //向上取整
             //显示机票
             showTickets(ticketList);
+
             //给机票表格添加鼠标移动事件
             tableRowMove();
         },
@@ -168,6 +173,7 @@ function getTickets() {
     });
 }
 
+//根据获取到的航班List显示
 function showTickets(list){
     if(list.length > 0) {
         var pageSize = 10;
@@ -205,6 +211,7 @@ function showTickets(list){
                 $("#tabRow" + i).append("<td>" + list[(pageIndex - 1) * pageSize + i].week + "</td>");
             }
         }
+        //添加分页按钮和事件
         $("#pageBar").html("");
         $("#pageBar").append("<li id='preBtn'><a href='#' aria-label='Previous' onclick='ChangeTicketPage(" + (pageIndex - 1) + ")'><span aria-hidden='true'>&laquo;</span>Previous</a></li>");
         if (pageCount > 1) {
@@ -252,6 +259,7 @@ function tableRowMove() {
 }
 
 
+//分页事件
 function ChangeTicketPage(i) {
     pageIndex = i;
     if (i == 0) {
@@ -260,21 +268,25 @@ function ChangeTicketPage(i) {
     if (i == pageCount + 1) {
         pageIndex = pageCount;
     }
+    //重新显示
     showTickets(ticketList);
     tableRowMove();
 }
 
+//保存所选择的航班信息到Cookie中，方便读取
 function chooseToBuy(index) {
     var colArr = new Array();
     $("#tabTickets tr").eq(index+1).find("td").each(function () {
         colArr.push($(this).text());
     });
     var airCode = colArr[1];
+    var startTime = colArr[4];
+    var arriveTime = colArr[5];
     $.ajax({
         url:"/AirSystem/bill/setBillToBuy",
         type:"post",
         contentType:"application/json;charset=utf-8",
-        data:JSON.stringify({airCode:airCode}),
+        data:JSON.stringify({airCode:airCode,startTime:startTime, arriveTime:arriveTime}),
         success:function () {
             location = "/AirSystem/jsp/buy.jsp";
         },
@@ -284,6 +296,7 @@ function chooseToBuy(index) {
     })
 }
 
+//获取用户个人信息
 function getPersonalInfo(){
     $.ajax({
         url:"/AirSystem/user/getPersonalInfo",
@@ -291,6 +304,7 @@ function getPersonalInfo(){
         //contentType:"application/json", // 指定这个协议很重要
         dateType:"json",
         success:function (user) {
+            //显示结果
             $("#userName").text(user.name);
             $("#email").text(user.email);
             $("#date").text(user.date);
@@ -301,7 +315,7 @@ function getPersonalInfo(){
     });
 }
 
-var billMap;
+var billMap;           //接收获取到的订单List
 
 function getBills(){
 
@@ -325,6 +339,7 @@ function getBills(){
     })
 }
 
+//显示订单信息
 function showBills(billMap){
     $("#tabBill tr").remove();
 
@@ -406,6 +421,8 @@ function showBills(billMap){
     }
 }
 
+
+//订单页面修改事件
 function changeBillPage(i){
     pageIndex = i;
     if (i == 0) {
@@ -418,6 +435,8 @@ function changeBillPage(i){
     tableRowMove();
 }
 
+
+//从Cookie中获取到用户所选择的航班信息
 function getTicketToBuy(){
     $.ajax({
         url:"/AirSystem/bill/getBillToBuy",
@@ -432,7 +451,7 @@ function getTicketToBuy(){
     })
 }
 
-
+//显示从Cookie中获取到的用户所选择的航班信息
 function showTicketToBuy(ticket){
     $("#tabTickets tr").remove();
     $("#tabTickets").append("<tr id='thead' class='active'></tr>");
@@ -473,30 +492,23 @@ function showTicketToBuy(ticket){
 }
 
 
+//购买事件，发送请求保存订单到数据库
 function buy() {
     $.ajax({
         url: "/AirSystem/bill/buyTicket",
         type: "post",
-        dataType: "text",
-        success: function (sym) {
-            if(userName == null || userName == ""){
-                if(confirm("当前未登录任何用户，是否登录？")){
+        success: function () {
+            if (userName == null || userName == "") {
+                if (confirm("当前未登录任何用户！是否登录？")) {
                     location = "/AirSystem/jsp/login.jsp";
                 }
-            }else {
-                if (sym) {
-                    if (confirm("购买成功！即将跳转到我的订单页面。")) {
-                        location = "/AirSystem/jsp/bill.jsp";
-                    }
-                } else {
-                    alert("购买失败！");
-                }
+            } else {
+                alert("购买成功！即将跳转到我的订单页面！");
+                location = "/AirSystem/jsp/bill.jsp";
             }
         },
-        error: function (sym) {
-            if (!sym) {
-                alert("购买失败！");
-            }
+        error: function () {
+            alert("购买失败！");
         }
     })
 }

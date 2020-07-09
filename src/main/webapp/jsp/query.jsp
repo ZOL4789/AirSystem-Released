@@ -52,7 +52,7 @@
                 <p>选择出发地、目的地和出发时间以进行航班班次查询。</p>
             </div>
             <div>
-                <input type="button" id="btnBuy" value="机票购买" class="btn btn-primary btn-block" disabled="true"/>
+                <input type="button" id="btnBuyInQueryPage" value="机票购买" class="btn btn-primary btn-block" disabled="true"/>
                 <br />
                 <p>使用该功能需要登录。</p>
                 <p>登录后请点击需要购买的机票进行购买。</p>
